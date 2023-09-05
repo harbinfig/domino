@@ -16,14 +16,10 @@ git clone https://github.com/harbinfig/domino.git
 2. Navegue hasta la carpeta del proyecto:
 
 ```
-cd domino-scorekeeper
+cd domino
 ```
 
-3. Instale las dependencias:
 
-```
-npm install
-```
 
 **Uso**
 
