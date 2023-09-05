@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DomiScore</title>
+    <link rel="stylesheet" href="./_assets/css/5.0.1_css_bootstrap.min.css">
+    <link rel="stylesheet" href="./_assets/css/estilos.css">
+</head>
+<body>
+ <header class="header">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col" >
+               
+                    <h1 class="title">Domi<strong>Score</strong></h1>
+               
+            </div>
+        </div>
+    </div>
+ </header>
+ <section id="main" class="main">
+    <div class="main-wrapper">
+        <div class="container">
+                <div class="row">
+                <div class="col">
+                    <form id="domConfig" class="config">
+                        <!-- Configuracion de puntuacion -->
+                        <label for="maxScore" class="form-label">Puntos necesarios para ganar</label>
+                        <input type="number" class="form-control mb-4" id="maxScore" aria-describedby="maxScore" placeholder="200">
+                    
+
+                    <!-- Nombres de equipos -->
+                    <label for="equipoA" class="form-label">Nombre equipo 1</label>
+                    <input type="text" class="form-control mb-4" id="equipoA" aria-describedby="equipoA" placeholder="Equipo A">
+                
+                    <label for="equipoB" class="form-label">Nombre equipo 2</label>
+                    <input type="text" class="form-control mb-4" id="equipoB" aria-describedby="equipoB" placeholder="Equipo B">
+                
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 col-md-4 offset-md-4">
+                                    <input id="enviarForm" class="btn btn-primary w-100 m-2" type="submit" value="Enviar">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <input class="btn btn-secondary w-25" id="clearData"  value="Reiniciar"> -->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> 
+<script src="./_assets/js/3.7.1_jquery.min.js"></script>
+<script src="./_assets/js/5.0.1_js_bootstrap.min.js"></script>
+<script src="./_assets/js/scripts.js"></script>
+</body>
+</html>

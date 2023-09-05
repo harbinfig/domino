@@ -1,0 +1,112 @@
+
+body {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #053b50;
+}
+
+header.header {
+    background-color: #053B50;
+    padding: 2rem 1.2rem 3rem;
+    color: #fff;
+}
+
+#main {
+    position: relative;
+    width: 100%;
+    background-color: #053B50;
+}
+
+.main-wrapper {
+    padding: 1.5rem;
+    position: absolute;
+    width: 100%;
+    background-color: #fff;
+    top: -30px;
+    border-radius: 2rem 2rem 0 0;
+}
+
+.btn {
+    font-size: .89rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 8px 12px;
+    border-radius: 25px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #81B214;
+    border-color: #81B214;
+}
+
+.btn-primary:hover {
+    background-color: #eb820b;
+    border-color: #fff;
+}
+
+.btn-secondary {
+    background-color: #F7F3E9;
+    border-color: #F7F3E9;
+    color: #053B50;
+}
+
+
+.modal-header,
+.modal-footer {
+    border: none;
+}
+
+#scoreList,
+#scoreList2 {
+    list-style: none;
+}
+
+#aPoints,
+#bPoints {
+    font-size: 1.4rem;
+    background-color: aliceblue;
+    font-weight: bold;
+    color: #4f6e0a;
+    border-radius: 15px 15px 0 0;
+}
+
+#scoreList .list-group-item,
+#scoreList2 .list-group-item {
+    padding: 4px 40px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.form-control {
+    border-radius: 25px;
+    border-color: #053B50;
+}
+
+.bonus-block label {
+    margin-left: 18px;
+    color: #053B50;
+}
+
+.form-check-label,
+#teamA,
+#teamB {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 6px;
+    margin-top: 3px;
+}
+
+.form-check-input:checked {
+    background-color: #81B214;
+    border-color: #81B214;
+}
+
+.form-check-input {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.bono {
+    min-width: 200px;
+}
